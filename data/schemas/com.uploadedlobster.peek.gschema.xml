@@ -45,8 +45,8 @@
       <summary>Framerate</summary>
     </key>
     <key name="recording-downsample" type="i">
-      <range min="1" max="4"/>
-      <default>1</default>
+      <range min="5" max="50"/>
+      <default>10</default>
       <summary>Resolution downsampling factor</summary>
     </key>
     <key name="recording-capture-mouse" type="b">
