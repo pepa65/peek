@@ -419,6 +419,7 @@ namespace Peek.Ui {
     }
 
     private void show_file_chooser () {
+      GLib.Thread.usleep(300000); // Don't capture the file chooser!
       var chooser = new FileChooserDialog (
         _ ("Save animation"), this, FileChooserAction.SAVE,
         _ ("_Cancel"),

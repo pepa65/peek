@@ -1,3 +1,7 @@
+# Version 0.10.0a - 2017-02-26 pepa65 https://github.com/pepa65/peek
+ * Delay before showing file chooser to prevent its capturing
+ * Scale the downsample up by factor 10, change range from 5-50 (5: upsample x2)
+
 # Version 0.10.0 - 2017-??-??
  * recording: Support Gnome Shell screencast DBUS service. Allows recording
    under Gnome Shell with XWayland (#33)

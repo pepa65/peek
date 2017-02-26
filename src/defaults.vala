@@ -10,7 +10,7 @@ This software is licensed under the GNU General Public License
 namespace Peek {
 
   const int DEFAULT_FRAMERATE = 15;
-  const int DEFAULT_DOWNSAMPLE = 1;
+  const int DEFAULT_DOWNSAMPLE = 15;
 
   const string OUTPUT_FORMAT_GIF = "gif";
   const string OUTPUT_FORMAT_WEBM = "webm";

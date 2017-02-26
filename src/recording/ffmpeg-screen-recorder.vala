@@ -69,7 +69,7 @@ namespace Peek.Recording {
         }
 
         args.append_val ("-filter:v");
-        args.append_val ("crop=iw-mod(iw\\,2):ih-mod(ih\\,2), scale=iw/" + downsample.to_string () + ":-1");
+        args.append_val ("crop=iw-mod(iw\\,2):ih-mod(ih\\,2), scale=iw*10/" + downsample.to_string () + ":-1");
 
         temp_file = Utils.create_temp_file (extension);
         args.append_val (temp_file);
